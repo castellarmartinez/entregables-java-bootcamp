@@ -3,18 +3,18 @@ package entrega01.challenge06;
 public class challenge06 {
     public static void main(String[] args) {
         String oracion = "Esta forma estoy entendiendo.";
-        String oraciónMinusculas = oracion.toLowerCase();
+        String oracionMinusculas = oracion.toLowerCase();
         char caracterMasRepetitivo = Character.MIN_VALUE;
         int conteoCaracterMasRepetitivo = 0;
 
-        for (int i = 0; i < oraciónMinusculas.length(); i++) {
-            char caracterActual = oraciónMinusculas.charAt(i);
+        for (int i = 0; i < oracionMinusculas.length(); i++) {
+            char caracterActual = oracionMinusculas.charAt(i);
             int conteoCaracter = 1;
 
             if (caracterActual != caracterMasRepetitivo && caracterActual != ' '
                     && caracterActual != ',' && caracterActual != '.') {
-                for (int j = i + 1; j < oraciónMinusculas.length(); j++) {
-                    if (oraciónMinusculas.charAt(j) == caracterActual) {
+                for (int j = i + 1; j < oracionMinusculas.length(); j++) {
+                    if (oracionMinusculas.charAt(j) == caracterActual) {
                         conteoCaracter++;
                     }
                 }
