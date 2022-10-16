@@ -1,6 +1,4 @@
-package entrega01.ejercicio06;
-
-import java.util.Locale;
+package entrega01.challenge06;
 
 public class challenge06 {
     public static void main(String[] args) {

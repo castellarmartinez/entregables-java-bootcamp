@@ -1,6 +1,6 @@
-package entrega01.ejercicio02;
+package entrega01.challenge02;
 
-public class ejercicio02 {
+public class challenge02 {
     public static void main(String[] args) {
         for (int numero = 1; numero <= 100; numero++) {
             if (numero % 3 == 0 && numero % 5 == 0) {

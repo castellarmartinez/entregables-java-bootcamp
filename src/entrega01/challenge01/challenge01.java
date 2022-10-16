@@ -1,8 +1,8 @@
-package entrega01.ejercicio01;
+package entrega01.challenge01;
 
 import java.util.Scanner;
 
-public class ejercicio01 {
+public class challenge01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int numero;

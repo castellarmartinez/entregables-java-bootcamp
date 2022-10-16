@@ -1,6 +1,6 @@
-package entrega01.ejercicio03;
+package entrega01.challenge03;
 
-public class challenge04 {
+public class challenge03 {
     public static void main(String[] args) {
         int[] arreglo = {9, 8, 6, 7, 10, 8, 8, 5, 6, 7, 8, 7, 9, 6, 10};
         double suma = 0.0;

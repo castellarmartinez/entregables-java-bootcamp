@@ -1,4 +1,4 @@
-package entrega01.ejercicio04;
+package entrega01.challenge04;
 
 public class challenge04 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package entrega01.ejercicio05;
+package entrega01.challenge05;
 
 import java.util.Scanner;
 
